@@ -1,7 +1,9 @@
-import {genkit} from 'genkit';
-import {googleAI} from '@genkit-ai/googleai';
+const { genkit } = require('genkit');
+const { googleAI } = require('@genkit-ai/googleai');
 
-export const ai = genkit({
+const ai = genkit({
   plugins: [googleAI()],
   model: 'googleai/gemini-2.0-flash',
 });
+
+module.exports = { ai };
