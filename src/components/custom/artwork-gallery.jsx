@@ -43,12 +43,12 @@ const ExhibitionCard = ({ name, year, venue, description }) => (
 
 const ArtworkGallery = () => {
   const artworks = [
-    { src: "https://placehold.co/600x600.png", alt: "Artwork 1", dataAiHint: "calligraphy art" },
-    { src: "https://placehold.co/600x600.png", alt: "Artwork 2", dataAiHint: "persian calligraphy" },
-    { src: "https://placehold.co/600x600.png", alt: "Artwork 3", dataAiHint: "abstract calligraphy" },
-    { src: "https://placehold.co/600x600.png", alt: "Artwork 4", dataAiHint: "modern calligraphy" },
-    { src: "https://placehold.co/600x600.png", alt: "Artwork 5", dataAiHint: "islamic art" },
-    { src: "https://placehold.co/600x600.png", alt: "Artwork 6", dataAiHint: "calligraphy painting" },
+    { src: "/pictures/2.jpg", alt: "Artwork 1", dataAiHint: "calligraphy art" },
+    { src: "/pictures/aaasheghh44.jpg", alt: "Artwork 2", dataAiHint: "persian calligraphy" },
+    { src: "/pictures/bann2.jpg", alt: "Artwork 3", dataAiHint: "abstract calligraphy" },
+    { src: "/pictures/IMG_E9420 copy.jpg", alt: "Artwork 4", dataAiHint: "modern calligraphy" },
+    { src: "/pictures/sharab.jpg", alt: "Artwork 5", dataAiHint: "islamic art" },
+    { src: "/pictures/sollhh.jpg", alt: "Artwork 6", dataAiHint: "calligraphy painting" },
   ];
 
   return (
